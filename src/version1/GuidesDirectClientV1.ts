@@ -9,7 +9,7 @@ import { DirectClient } from 'pip-services-net-node';
 import { GuideV1 } from './GuideV1';
 import { GuidePageV1 } from './GuidePageV1';
 import { IGuidesClientV1 } from './IGuidesClientV1';
-//import { IGuidesBusinessLogic } from 'pip-services-guides-node';
+//import { IGuidesController } from 'pip-services-guides-node';
 
 export class GuidesDirectClientV1 extends DirectClient<any> implements IGuidesClientV1 {
             

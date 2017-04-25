@@ -4,6 +4,6 @@ function __export(m) {
 }
 Object.defineProperty(exports, "__esModule", { value: true });
 __export(require("./version1"));
-var GuidesFactory_1 = require("./build/GuidesFactory");
-exports.GuidesFactory = GuidesFactory_1.GuidesFactory;
+var GuidesClientFactory_1 = require("./build/GuidesClientFactory");
+exports.GuidesClientFactory = GuidesClientFactory_1.GuidesClientFactory;
 //# sourceMappingURL=index.js.map
