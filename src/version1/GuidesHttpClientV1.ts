@@ -12,7 +12,7 @@ import { IGuidesClientV1 } from './IGuidesClientV1';
 export class GuidesHttpClientV1 extends CommandableHttpClient implements IGuidesClientV1 {
 
     constructor(config?: any) {
-        super('guides');
+        super('v1/guides');
 
         if (config != null)
             this.configure(ConfigParams.fromValue(config));
