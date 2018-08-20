@@ -1,5 +1,5 @@
 import { Descriptor } from 'pip-services-commons-node';
-import { Factory } from 'pip-services-commons-node';
+import { Factory } from 'pip-services-components-node';
 
 import { GuidesDirectClientV1 } from '../version1/GuidesDirectClientV1';
 import { GuidesHttpClientV1 } from '../version1/GuidesHttpClientV1';
