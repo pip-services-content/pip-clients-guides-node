@@ -1,7 +1,7 @@
-import { FilterParams } from 'pip-services-commons-node';
-import { PagingParams } from 'pip-services-commons-node';
-import { DataPage } from 'pip-services-commons-node';
-import { CommandableLambdaClient } from 'pip-services-aws-node';
+import { FilterParams } from 'pip-services3-commons-node';
+import { PagingParams } from 'pip-services3-commons-node';
+import { DataPage } from 'pip-services3-commons-node';
+import { CommandableLambdaClient } from 'pip-services3-aws-node';
 import { GuideV1 } from './GuideV1';
 import { IGuidesClientV1 } from './IGuidesClientV1';
 export declare class GuidesLambdaClientV1 extends CommandableLambdaClient implements IGuidesClientV1 {

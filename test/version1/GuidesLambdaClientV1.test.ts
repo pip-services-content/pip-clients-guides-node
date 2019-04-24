@@ -1,6 +1,6 @@
 let process = require('process');
 
-import { ConfigParams } from 'pip-services-commons-node';
+import { ConfigParams } from 'pip-services3-commons-node';
 
 import { GuidesClientFixtureV1 } from './GuidesClientFixtureV1';
 import { GuidesLambdaClientV1 } from '../../src/version1/GuidesLambdaClientV1';

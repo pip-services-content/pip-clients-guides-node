@@ -1,7 +1,7 @@
-import { FilterParams } from 'pip-services-commons-node';
-import { PagingParams } from 'pip-services-commons-node';
-import { DataPage } from 'pip-services-commons-node';
-import { DirectClient } from 'pip-services-rpc-node';
+import { FilterParams } from 'pip-services3-commons-node';
+import { PagingParams } from 'pip-services3-commons-node';
+import { DataPage } from 'pip-services3-commons-node';
+import { DirectClient } from 'pip-services3-rpc-node';
 import { GuideV1 } from './GuideV1';
 import { IGuidesClientV1 } from './IGuidesClientV1';
 export declare class GuidesDirectClientV1 extends DirectClient<any> implements IGuidesClientV1 {

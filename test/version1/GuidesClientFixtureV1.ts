@@ -2,7 +2,7 @@ let _ = require('lodash');
 let async = require('async');
 let assert = require('chai').assert;
 
-import { MultiString } from 'pip-services-commons-node';
+import { MultiString } from 'pip-services3-commons-node';
 
 import { IGuidesClientV1 } from '../../src/version1/IGuidesClientV1';
 import { GuidePageV1 } from '../../src/version1/GuidePageV1';
