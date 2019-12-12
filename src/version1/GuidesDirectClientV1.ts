@@ -33,7 +33,7 @@ export class GuidesDirectClientV1 extends DirectClient<any> implements IGuidesCl
     public getRandomGuide(correlationId: string, filter: FilterParams,
         callback: (err: any, guide: GuideV1) => void): void {
         let timing = this.instrument(correlationId, 'guides.get_random_guide');
-        this._controller.getGuides(correlationId, filter, (err, guide) => {
+        this._controller.getRandomGuide(correlationId, filter, (err, guide) => {
             timing.endTiming();
             callback(err, guide);
         });

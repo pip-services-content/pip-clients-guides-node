@@ -20,7 +20,7 @@ class GuidesDirectClientV1 extends pip_services3_rpc_node_1.DirectClient {
     }
     getRandomGuide(correlationId, filter, callback) {
         let timing = this.instrument(correlationId, 'guides.get_random_guide');
-        this._controller.getGuides(correlationId, filter, (err, guide) => {
+        this._controller.getRandomGuide(correlationId, filter, (err, guide) => {
             timing.endTiming();
             callback(err, guide);
         });
