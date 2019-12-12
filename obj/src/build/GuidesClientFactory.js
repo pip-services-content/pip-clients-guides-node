@@ -11,8 +11,8 @@ class GuidesClientFactory extends pip_services3_components_node_1.Factory {
         this.registerAsType(GuidesClientFactory.HttpClientV1Descriptor, GuidesHttpClientV1_1.GuidesHttpClientV1);
     }
 }
+exports.GuidesClientFactory = GuidesClientFactory;
 GuidesClientFactory.Descriptor = new pip_services3_commons_node_1.Descriptor('pip-services-guides', 'factory', 'default', 'default', '1.0');
 GuidesClientFactory.DirectClientV1Descriptor = new pip_services3_commons_node_1.Descriptor('pip-services-guides', 'client', 'direct', 'default', '1.0');
 GuidesClientFactory.HttpClientV1Descriptor = new pip_services3_commons_node_1.Descriptor('pip-services-guides', 'client', 'http', 'default', '1.0');
-exports.GuidesClientFactory = GuidesClientFactory;
 //# sourceMappingURL=GuidesClientFactory.js.map
